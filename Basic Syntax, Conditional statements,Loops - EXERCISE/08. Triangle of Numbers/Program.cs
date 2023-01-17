@@ -6,14 +6,12 @@ namespace _08._Triangle_of_Numbers
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            // vynshniq cikyl predstavq redovete
+            int n = int.Parse(Console.ReadLine());           
             for (int row = 1; row <= n; row++)
-            {
-                // vlojeniq cikyl predstavq kolonkite
-                for (int col = 1; col <= row; col++) // nomera na reda opredelq kolko koloni shte ima v dadeniq red ( 2ri red 2 koloni / 3ti red 3 ...)
+            {                
+                for (int col = 1; col <= row; col++)
                 {
-                    Console.Write($"{row} "); // pechatame nomera na reda
+                    Console.Write($"{row} "); 
                 }
                 // minava na nov red
                 Console.WriteLine();
