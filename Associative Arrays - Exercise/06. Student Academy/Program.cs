@@ -24,8 +24,8 @@ namespace Orders
                 {
                     studentsAndGrades.Add(studentName, new double[2]);
                 }
-                studentsAndGrades[studentName][0] += grade; // dobavqme mu ocenka
-                studentsAndGrades[studentName][1]++; // broim kolko ocenki ima studenta                
+                studentsAndGrades[studentName][0] += grade; 
+                studentsAndGrades[studentName][1]++;              
             }
 
             foreach (var student in studentsAndGrades)
