@@ -43,7 +43,7 @@ namespace T08._Letters_Change_Numbers
                     int positionOfTheLetter = lastLetter - 96;
                     numFromString += positionOfTheLetter;
                 }
-                sum += numFromString; 
+                sum += numFromString;
             }
             Console.WriteLine($"{sum:f2}");
         }
