@@ -11,12 +11,12 @@ namespace _02._Gauss__Trick
             List<int> result = new List<int>();
             for (int i = 0; i < numbers.Count/2; i++)
             {
-                int currSum = numbers[i] + numbers[numbers.Count - 1 - i]; // vadim pyrvo 1 posle i za da namalqva ot dqsno na lqvo
+                int currSum = numbers[i] + numbers[numbers.Count - 1 - i];
                 result.Add(currSum);
             }
             if (numbers.Count % 2 != 0)
             {
-                result.Add(numbers[numbers.Count / 2]); // vzemame sredniq element i go printirame i nego
+                result.Add(numbers[numbers.Count / 2]); 
             }
             Console.WriteLine(string.Join(" ", result));
         }
